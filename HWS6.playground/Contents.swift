@@ -43,3 +43,11 @@ travel {
 }
 
 
+
+// My own function
+let square = { (num: Int) -> Int in
+    return num * num
+}
+
+print(square(2))
+
