@@ -32,6 +32,20 @@ struct ContentView: View {
         return orderAmount + (orderAmount * (tipSelection/100))
     }
     
+    struct noTip: ViewModifier {
+        func body(content: Content) -> some View {
+            
+            content
+                .foregroundColor(.red)
+        }
+    }
+    
+//    extension View{
+//        func noTipStyle() -> some View {
+//            self.modifier(noTip())
+//        }
+//    }
+//
     var body: some View {
         NavigationView{
             Form{
@@ -62,7 +76,9 @@ struct ContentView: View {
                 
                 
                 Section(header: Text("Total Amount")){
+                    
                     Text("$\(billTotal, specifier: "%.2f")")
+                        .modifier(noTip())
                 }
             }
         .navigationBarTitle("WeSplit")
