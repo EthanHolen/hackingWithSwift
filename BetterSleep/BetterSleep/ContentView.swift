@@ -12,7 +12,7 @@ struct ContentView: View {
     
     @State private var wakeup = defaultWakeTime
     @State private var sleepAmount = 8.0
-    @State private var coffeeAmount = 1
+    @State private var coffeeAmount = 0
     
     //Variables for alert
     @State private var alertTitle = ""
@@ -23,7 +23,7 @@ struct ContentView: View {
         NavigationView{
             Form{
                 // Wake up?
-                VStack(alignment: .leading, spacing: 0){
+                Section{
                     Text("When do you want to wake up?")
                         .font(.headline)
                     
@@ -33,7 +33,7 @@ struct ContentView: View {
                 }
                 
                 // Desired amount of sleep?
-                VStack(alignment: .leading, spacing: 0){
+                Section{
                     Text("Desired amount of Sleep")
                         .font(.headline)
                     
@@ -43,11 +43,11 @@ struct ContentView: View {
                 }
                 
                 //Coffe Intake?
-                VStack(alignment: .leading, spacing: 0){
+                Section{
                     Text("Daily Coffee intake")
                         .font(.headline)
                     
-                    Stepper(value: $coffeeAmount, in: 1...20){
+                    Stepper(value: $coffeeAmount, in: 0...20){
                         if coffeeAmount == 1 {
                             Text("1 cup")
                         }else{
