@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1A60692449EDF1002E4E05 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA1A60682449EDF1002E4E05 /* start.txt */; };
 		DAAF244E2448A3F90008420F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF244D2448A3F90008420F /* AppDelegate.swift */; };
 		DAAF24502448A3F90008420F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF244F2448A3F90008420F /* SceneDelegate.swift */; };
 		DAAF24522448A3F90008420F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF24512448A3F90008420F /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA1A60682449EDF1002E4E05 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = "../../courseMaterials/HackingWithSwift/SwiftUI/project5-files/start.txt"; sourceTree = "<group>"; };
 		DAAF244A2448A3F90008420F /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF244D2448A3F90008420F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAAF244F2448A3F90008420F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				DAAF24532448A3FB0008420F /* Assets.xcassets */,
 				DAAF24582448A3FB0008420F /* LaunchScreen.storyboard */,
 				DAAF245B2448A3FB0008420F /* Info.plist */,
+				DA1A60682449EDF1002E4E05 /* start.txt */,
 				DAAF24552448A3FB0008420F /* Preview Content */,
 			);
 			path = WordScramble;
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAF245A2448A3FB0008420F /* LaunchScreen.storyboard in Resources */,
+				DA1A60692449EDF1002E4E05 /* start.txt in Resources */,
 				DAAF24572448A3FB0008420F /* Preview Assets.xcassets in Resources */,
 				DAAF24542448A3FB0008420F /* Assets.xcassets in Resources */,
 			);
