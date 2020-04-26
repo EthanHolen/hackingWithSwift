@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7CACCF2452AD320062F94E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CACCE2452AD320062F94E /* AddView.swift */; };
 		DAF0F1A0244F44C200577283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0F19F244F44C200577283 /* AppDelegate.swift */; };
 		DAF0F1A2244F44C200577283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0F1A1244F44C200577283 /* SceneDelegate.swift */; };
 		DAF0F1A4244F44C200577283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF0F1A3244F44C200577283 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA7CACCE2452AD320062F94E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DAF0F19C244F44C200577283 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF0F19F244F44C200577283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF0F1A1244F44C200577283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				DAF0F19F244F44C200577283 /* AppDelegate.swift */,
 				DAF0F1A1244F44C200577283 /* SceneDelegate.swift */,
 				DAF0F1A3244F44C200577283 /* ContentView.swift */,
+				DA7CACCE2452AD320062F94E /* AddView.swift */,
 				DAF0F1A5244F44C300577283 /* Assets.xcassets */,
 				DAF0F1AA244F44C300577283 /* LaunchScreen.storyboard */,
 				DAF0F1AD244F44C300577283 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7CACCF2452AD320062F94E /* AddView.swift in Sources */,
 				DAF0F1A0244F44C200577283 /* AppDelegate.swift in Sources */,
 				DAF0F1A2244F44C200577283 /* SceneDelegate.swift in Sources */,
 				DAF0F1A4244F44C200577283 /* ContentView.swift in Sources */,
