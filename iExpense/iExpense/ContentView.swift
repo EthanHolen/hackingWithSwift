@@ -63,9 +63,10 @@ struct ContentView: View {
                 
                 ForEach(expenses.items){ item in
                     HStack{
-                        VStack{
+                        VStack(alignment: .leading){
                             Text(item.name)
                                 .font(.headline)
+                                
                             Text(item.type)
                             
                         }
@@ -74,12 +75,13 @@ struct ContentView: View {
                     }
                 }
                 .onDelete(perform: removeItems)
+            
             }
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
+            .navigationBarItems(leading: EditButton(), trailing:
                 Button(action: {
                     self.showingAddExpense = true
-                    
+
                 }){
                     Image(systemName: "plus")
                 }
@@ -87,6 +89,7 @@ struct ContentView: View {
                 .sheet(isPresented: $showingAddExpense){
                     AddView(expenses: self.expenses)
             }
+            
         }
     }
 }
